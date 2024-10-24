@@ -5,11 +5,17 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import "./index.css";
+import Dashboard from "./pages/Dashboard";
+import Leads from "./pages/Leads";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <div>Hello world!</div>,
+    element: <App />,
+    children: [
+      { path: "/", element: <Dashboard /> },
+      { path: "/leads", element: <Leads /> },
+    ],
   },
 ]);
 
