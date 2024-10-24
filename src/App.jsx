@@ -14,7 +14,7 @@ function App() {
       </header>
       <main className='flex'>
         <aside>
-          {/* <Sidebar /> */}
+          < Sidebar />
         </aside>
         <section>
           <Outlet />
