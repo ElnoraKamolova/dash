@@ -11,11 +11,11 @@ function App() {
   return (
     <>
       <header>
-        {/* Navbarr */}
+      <  />
       </header>
       <main className='flex'>
         <aside>
-          {/* <Sidebar /> */}
+          < Sidebar />
         </aside>
         <section>
           <Outlet />
